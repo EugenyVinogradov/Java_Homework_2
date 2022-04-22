@@ -3,6 +3,6 @@ public class Main {
         int ticketPrice = 230;
         int countRublesForMile = 20;
         int bonusMiles = ticketPrice / countRublesForMile;
-        System.out.println(bonusMiles);
+        System.out.println("Количество бонусных миль: " + bonusMiles);
     }
 }
